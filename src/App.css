@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+div.done{
+  background: darkolivegreen;
+}
+
+div.todo, div.done{
+  border: 1px solid black;
+  margin: 12px;
+  padding: 12px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div.todo{
+  background-color: #F7F7F7;
+}
+
+div.todo > p{
+  margin-top: 4px;
+}
+
+.delete-btn, .done-btn{
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.delete-btn{
+  background-color: lightsalmon;
+}
+
+.done-btn{
+  background-color: darkolivegreen;
+  color: white;
+}
+
+div.add{
+  margin: 36px;
+}
+
+input,
+form > button{
+  margin: 6px;
+}
+
+input{
+  padding: 4px;
+  width: 300px;
+}
+
+form > button{
+  padding: 8px 24px;
+  background-color: darkolivegreen;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
